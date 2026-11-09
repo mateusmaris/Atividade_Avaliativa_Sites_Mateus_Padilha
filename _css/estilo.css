@@ -1,0 +1,159 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(../_images/Fundodosite@1x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    overflow: auto;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menu {
+    float: right;
+    margin-top: 18px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid orangered;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.menu a:hover {
+    background-color: rgba(124, 33, 0, 0.356);
+}
+
+.plano1 {
+    border: 2px solid black;
+    width: 150px;
+    color: orangered;
+    text-align: center;
+    background-color: rgba(169, 169, 169, 0.089);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+
+.plano2 {
+    border: 2px solid black;
+    width: 150px;
+    color: orangered;
+    text-align: center;
+    background-color: rgba(169, 169, 169, 0.089);
+    padding: 10px;
+}
+
+.plano3 {
+    border: 2px solid black;
+    width: 150px;
+    color: orangered;
+    text-align: center;
+    background-color: rgba(169, 169, 169, 0.089);
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.card1 {
+    border: 2px solid black;
+    width: 200px;
+    background-color: rgba(169, 169, 169, 0.089);
+    color: orangered;
+    padding: 10px;
+}
+
+.card2 {
+    border: 2px solid black;
+    width: 200px;
+    background-color: rgba(169, 169, 169, 0.089);
+    color: orangered;
+    padding: 10px;
+}
+
+.card3 {
+    border: 2px solid black;
+    width: 200px;
+    background-color: rgba(169, 169, 169, 0.089);
+    color: orangered;
+    padding: 10px;
+}
+
+.card4 {
+    border: 2px solid black;
+    width: 200px;
+    background-color: rgba(169, 169, 169, 0.089);
+    color: orangered;
+    padding: 10px;
+}
+
+section {
+    display: flex;
+    width: 800px;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+}
+
+.sobre a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.contato a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.empresa {
+    font-size: 20px;
+    color: darkgray;
+}
+.contato a:hover {
+    color: gray;
+}
+.sobre a:hover {
+    color: gray;
+}
+.sobrenos {
+    border: 2px solid black;
+    color: white;
+}
+
+form {
+    border: 2px solid black;
+    color: white;
+}
+input[type=submit]{
+    width: 50px;
+}
+input {
+    width: 30%;
+    background-color: gray;
+}
+.escrita {
+    color: white;
+}
